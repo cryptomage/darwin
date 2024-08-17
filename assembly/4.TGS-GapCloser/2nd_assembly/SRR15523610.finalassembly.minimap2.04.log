@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.301*0.85] collected minimizers
+[M::mm_idx_gen::0.436*2.31] sorted minimizers
+[M::main::0.436*2.31] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.474*2.20] mid_occ = 9
+[M::mm_idx_stat] kmer size: 15; skip: 5; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.502*2.14] distinct minimizers: 1992060 (91.54% are singletons); average occurrences: 1.115; average spacing: 2.943
+[M::worker_pipeline::2.751*1.36] mapped 3 sequences
+[M::main] Version: 2.17-r943-dirty
+[M::main] CMD: /home/users/sdtesalona/.conda/envs/tgs-gapcloser/bin/tgsgapcloserbin/minimap2 -x ava-ont -t 16 GCA_000014625.1_ASM1462v1_genomic.fna SRR15523610.finalassembly.contig
+[M::main] Real time: 2.769 sec; CPU: 3.748 sec; Peak RSS: 0.305 GB

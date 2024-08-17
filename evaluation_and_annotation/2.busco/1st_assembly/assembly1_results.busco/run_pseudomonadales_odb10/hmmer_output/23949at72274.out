@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2:3857098-3858060|-  -            321 23949at72274         -            284  3.2e-138  458.2   1.0   1   1  3.3e-141  3.6e-138  458.0   1.0     1   284    16   317    16   317 0.94 2_3595 # 3857098 # 3858060 # -1 # ID=2_3595;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.669
+2:600201-601157|+    -            319 23949at72274         -            284     3e-34  117.0   0.1   1   1   3.5e-37   3.9e-34  116.7   0.1     2   228    22   269    21   317 0.71 2_546 # 600201 # 601157 # 1 # ID=2_546;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.659
+2:302740-303375|-    -            212 23949at72274         -            284   2.2e-33  114.2   0.0   1   1   4.5e-36   4.9e-33  113.1   0.0    64   268     6   210     4   211 0.87 2_278 # 302740 # 303375 # -1 # ID=2_278;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.684
+2:1829283-1830185|-  -            301 23949at72274         -            284   2.1e-14   52.0   0.0   1   1   2.2e-17   2.4e-14   51.7   0.0    63   266    86   293    28   300 0.75 2_1639 # 1829283 # 1830185 # -1 # ID=2_1639;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.700
+2:367281-368441|+    -            387 23949at72274         -            284   0.00086   17.1   0.0   1   1   1.3e-06    0.0014   16.4   0.0     2   158    13   163    12   168 0.79 2_347 # 367281 # 368441 # 1 # ID=2_347;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.689
+2:3401133-3401825|+  -            231 23949at72274         -            284     0.016   12.9   0.2   1   3   0.00077      0.85    7.3   0.0     4    50     2    49     1    59 0.77 2_3174 # 3401133 # 3401825 # 1 # ID=2_3174;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.670
+2:3401133-3401825|+  -            231 23949at72274         -            284     0.016   12.9   0.2   2   3     0.023        25    2.5   0.0   112   127    99   114    94   132 0.87 2_3174 # 3401133 # 3401825 # 1 # ID=2_3174;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.670
+2:3401133-3401825|+  -            231 23949at72274         -            284     0.016   12.9   0.2   3   3       0.3   3.3e+02   -1.2   0.0   196   214   175   193   169   198 0.81 2_3174 # 3401133 # 3401825 # 1 # ID=2_3174;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.670
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/23949at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/run_pseudomonadales_odb10/hmmer_output/23949at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/23949at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly
+# Date:            Wed Aug 14 12:50:33 2024
+# [ok]

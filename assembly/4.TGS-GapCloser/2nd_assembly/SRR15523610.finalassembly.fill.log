@@ -1,0 +1,124 @@
+/home/users/sdtesalona/.conda/envs/tgs-gapcloser/bin/tgsgapcloserbin/tgsgapcloser --prefix SRR15523610.finalassembly --contig2ont_paf SRR15523610.finalassembly.fill.paf --ont_reads_a GCA_000014625.1_ASM1462v1_genomic.fna --min_match 300 --min_idy 0.300000
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	TGSGapCloser start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadONTReads start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadONTReads finish. used wall clock : 0 seconds, cpu time : 0.014449 seconds
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadPAF start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the read2contig freq is 
+3	1
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the contig2read_num_freq freq is 
+1	3
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the contig2a_read_freq freq is 
+18	1
+28	1
+143	1
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadPAF finish. used wall clock : 0 seconds, cpu time : 0.002462 seconds
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadScaffInfo start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	LoadScaffInfo finish. used wall clock : 0 seconds, cpu time : 0.000053 seconds
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	ParseAllGap start now ... 
+overlap check c1=1	and Try c2=2	-154418
+overlap check c1=1	and Try c2=2	-74757
+overlap check c1=1	and Try c2=2	-156803
+overlap check c1=1	and Try c2=2	-145262
+overlap check c1=1	and Try c2=2	-77142
+overlap check c1=1	and Try c2=2	-162531
+overlap check c1=1	and Try c2=2	-82870
+overlap check c1=1	and Try c2=2	-147647
+overlap check c1=1	and Try c2=2	-153375
+overlap check c1=1	and Try c2=2	-170358
+overlap check c1=1	and Try c2=2	-90697
+overlap check c1=1	and Try c2=2	-139624
+overlap check c1=1	and Try c2=2	-169369
+overlap check c1=1	and Try c2=2	-59963
+overlap check c1=1	and Try c2=2	-161202
+overlap check c1=1	and Try c2=2	-89708
+overlap check c1=1	and Try c2=2	-208785
+overlap check c1=1	and Try c2=2	-130468
+overlap check c1=1	and Try c2=2	-173806
+overlap check c1=1	and Try c2=2	-129124
+overlap check c1=1	and Try c2=2	-160213
+overlap check c1=1	and Try c2=2	-94145
+overlap check c1=1	and Try c2=2	-199629
+overlap check c1=1	and Try c2=2	-198121
+overlap check c1=1	and Try c2=2	-164650
+overlap check c1=1	and Try c2=2	-177249
+overlap check c1=1	and Try c2=2	-200506
+overlap check c1=1	and Try c2=2	-97588
+overlap check c1=1	and Try c2=2	-91197
+overlap check c1=1	and Try c2=2	-206234
+overlap check c1=1	and Try c2=2	-11536
+overlap check c1=1	and Try c2=2	-168093
+overlap check c1=1	and Try c2=2	-157006
+overlap check c1=1	and Try c2=2	-77345
+overlap check c1=1	and Try c2=2	-82041
+overlap check c1=1	and Try c2=2	-214061
+overlap check c1=1	and Try c2=2	-147850
+overlap check c1=1	and Try c2=2	-183327
+overlap check c1=1	and Try c2=2	-213072
+overlap check c1=1	and Try c2=2	-252488
+overlap check c1=1	and Try c2=2	-217509
+overlap check c1=1	and Try c2=2	-100690
+overlap check c1=1	and Try c2=2	-21029
+overlap check c1=1	and Try c2=2	-220952
+overlap check c1=1	and Try c2=2	-134900
+overlap check c1=1	and Try c2=2	-91534
+overlap check c1=1	and Try c2=2	-184048
+overlap check c1=1	and Try c2=2	-200709
+overlap check c1=1	and Try c2=2	-104387
+overlap check c1=1	and Try c2=2	-147701
+overlap check c1=1	and Try c2=2	-174892
+overlap check c1=1	and Try c2=2	-174424
+overlap check c1=1	and Try c2=2	-68040
+overlap check c1=1	and Try c2=2	-141482
+overlap check c1=1	and Try c2=2	-94763
+overlap check c1=1	and Try c2=2	-61821
+overlap check c1=2	and Try c2=3	-145188
+overlap check c1=2	and Try c2=3	-226486
+overlap check c1=2	and Try c2=3	-156407
+overlap check c1=2	and Try c2=3	-60171
+overlap check c1=2	and Try c2=3	-141469
+overlap check c1=2	and Try c2=3	-71390
+overlap check c1=2	and Try c2=3	-61620
+overlap check c1=2	and Try c2=3	-142918
+overlap check c1=2	and Try c2=3	-72839
+overlap check c1=2	and Try c2=3	-103100
+overlap check c1=2	and Try c2=3	-18083
+overlap check c1=2	and Try c2=3	-82724
+overlap check c1=2	and Try c2=3	-164022
+overlap check c1=2	and Try c2=3	-19532
+overlap check c1=2	and Try c2=3	-93943
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the overlap cheked caused failed is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the gapsize cheked caused failed is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the gap_total is 2
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the no_match is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the no choose is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the no common is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the scaff_negotive_gap_size is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the ont_negotive_gap_size is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the common reads count freq for a gap 
+1	2
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the used idy freq is 
+90	1
+95	1
+96	1
+98	1
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the correct oo reads count freq for a gap 
+1	2
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the filler choose count freq for a gap 
+188	1
+439	1
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the one read provide filler choose count freq for a gap 
+188	1
+439	1
+
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	>the cut error is 0
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	ParseAllGap finish. used wall clock : 0 seconds, cpu time : 0.002749 seconds
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	PrintScaffInfo start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	PrintScaffInfo finish. used wall clock : 0 seconds, cpu time : 0.003720 seconds
+TGSGapCloser	INFO	PST	2024/8/11	17:52:28	:	TGSGapCloser finish. used wall clock : 0 seconds, cpu time : 0.051952 seconds

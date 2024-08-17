@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2:3977664-3978221|-  -            186 52627at72274         -            157   1.8e-59  198.4   0.0   1   1   1.3e-62   2.2e-59  198.1   0.0     1   157     1   183     1   183 0.89 2_3701 # 3977664 # 3978221 # -1 # ID=2_3701;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.640
+2:442608-444113|+    -            502 52627at72274         -            157    0.0029   15.8   0.0   1   1   3.8e-06    0.0062   14.7   0.0    77   109   351   383   339   389 0.88 2_411 # 442608 # 444113 # 1 # ID=2_411;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.640
+2:4731655-4732227|+  -            191 52627at72274         -            157     0.015   13.4   0.1   1   1   1.3e-05     0.021   13.0   0.1    77   107   110   140    28   160 0.68 2_4364 # 4731655 # 4732227 # 1 # ID=2_4364;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.630
+2:5490340-5490852|-  -            171 52627at72274         -            157     0.021   13.0   0.0   1   1   2.1e-05     0.035   12.3   0.0    80   117    83   126    18   140 0.65 2_5056 # 5490340 # 5490852 # -1 # ID=2_5056;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.680
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/52627at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/run_pseudomonadales_odb10/hmmer_output/52627at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/52627at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly/assembly1_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/1st_assembly
+# Date:            Wed Aug 14 12:51:23 2024
+# [ok]

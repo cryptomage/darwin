@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523602.raw
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523602.raw.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523602.raw.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate nanoplot
+NanoPlot --fastq /home/projects/internship2024/darwin/Fastq_PA/Long_read/SRR15523602.fastq --N50 -o qc_report/SRR15523602.raw

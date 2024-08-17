@@ -1,0 +1,13 @@
+8132274 6 11
+0 HD VN:1.5	SO:unsorted	GO:query
+0 0 0
+0 SQ SN:contig_1	LN:6710365
+0 0 0
+0 SQ SN:contig_6	LN:357674
+0 0 0
+0 PG ID:bwa	PN:bwa	VN:0.7.18-r1243-dirty	CL:bwa mem -t 10 1st_assembly.fasta SRR15523613_1_fastp_fix.fastq SRR15523613_2_fastp_fix.fastq
+0 0 0
+0 PG ID:samtools	PN:samtools	PP:bwa	VN:1.20	CL:samtools view -b 1st_mapping.sam
+0 8132274 5533653
+0  @
+8132274 0 0

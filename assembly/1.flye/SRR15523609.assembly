@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523609.assembly
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523609.assembly.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523609.assembly.err
+#SBATCH --mem=20G
+
+##Commands
+
+time source activate flye
+time flye --nano-raw /home/projects/internship2024/darwin/long_read/process_scripts/ratatosk/SRR15523609_correct.fastq.gz -o 3rd_assembly -g 6.3m -t 10 -i 2

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2:3364917-3365771|-  -            285 36193at72274         -            235  5.9e-110  364.7   5.2   1   2   9.2e-85     3e-81  270.7   0.4     1   171     1   178     1   188 0.95 2_3136 # 3364917 # 3365771 # -1 # ID=2_3136;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.618
+2:3364917-3365771|-  -            285 36193at72274         -            235  5.9e-110  364.7   5.2   2   2   1.4e-31   4.6e-28   96.7   0.5   168   235   199   281   180   281 0.85 2_3136 # 3364917 # 3365771 # -1 # ID=2_3136;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.618
+2:2531402-2531941|+  -            180 36193at72274         -            235   3.1e-42  143.0   0.0   1   1   1.1e-44   3.6e-41  139.6   0.0    82   223    33   172    26   176 0.85 2_2330 # 2531402 # 2531941 # 1 # ID=2_2330;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.693
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/busco_downloads/lineages/pseudomonadales_odb10/hmms/36193at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/run_pseudomonadales_odb10/hmmer_output/36193at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/busco_downloads/lineages/pseudomonadales_odb10/hmms/36193at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1
+# Date:            Tue Aug 13 13:55:54 2024
+# [ok]

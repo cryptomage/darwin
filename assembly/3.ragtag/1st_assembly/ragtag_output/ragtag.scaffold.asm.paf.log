@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.181*1.00] collected minimizers
+[M::mm_idx_gen::0.241*1.00] sorted minimizers
+[M::main::0.241*1.00] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.258*1.00] mid_occ = 5; max_occ = 10
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_HPC: 0; #seq: 1
+[M::mm_idx_stat::0.264*1.00] distinct minimizers: 645522 (98.92% are singletons); average occurrences: 1.014; average spacing: 9.991
+[M::worker_pipeline::0.618*1.00] mapped 2 sequences
+[M::main] Version: 2.1.1-r341
+[M::main] CMD: minimap2 -x asm5 -t 1 /home/projects/internship2024/darwin/long_read/process_scripts/ragtag/1st_assembly/GCA_000014625.1_ASM1462v1_genomic.fna /home/projects/internship2024/darwin/long_read/process_scripts/ragtag/1st_assembly/SRR15523602.polished.fasta
+[M::main] Real time: 0.629 sec; CPU: 0.628 sec

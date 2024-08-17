@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523610.index
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523610.index.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523610.index.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate bwa
+time bwa index /home/projects/internship2024/darwin/long_read/process_scripts/pilon/2nd_assembly_bwa/2nd_assembly.fasta

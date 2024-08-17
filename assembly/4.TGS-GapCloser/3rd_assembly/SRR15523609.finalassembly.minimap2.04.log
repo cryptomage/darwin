@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.365*0.74] collected minimizers
+[M::mm_idx_gen::0.475*1.98] sorted minimizers
+[M::main::0.475*1.98] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.517*1.90] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 5; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.547*1.85] distinct minimizers: 1992060 (91.54% are singletons); average occurrences: 1.115; average spacing: 2.943; total length: 6537648
+[M::worker_pipeline::4.848*1.10] mapped 2 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: minimap2 -x ava-ont -t 16 GCA_000014625.1_ASM1462v1_genomic.fna SRR15523609.finalassembly.contig
+[M::main] Real time: 4.865 sec; CPU: 5.329 sec; Peak RSS: 0.324 GB

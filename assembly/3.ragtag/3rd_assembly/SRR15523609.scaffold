@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523609.scaffold
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523609.scaffold.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523609.scaffold.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate ragtag
+time ragtag.py scaffold GCA_000014625.1_ASM1462v1_genomic.fna SRR15523609.polished.fasta

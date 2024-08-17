@@ -1,0 +1,11 @@
+0 5 11
+0 HD VN:1.5	SO:unsorted	GO:query
+0 0 0
+0 SQ SN:contig_2	LN:1092043
+0 0 0
+0 SQ SN:contig_3	LN:5232431
+0 0 0
+0 SQ SN:contig_9	LN:732606
+0 0 0
+0 PG ID:bwa	PN:bwa	VN:0.7.18-r1243-dirty	CL:bwa mem -t 10 2nd_assembly.fasta SRR15523633_1_fastp.fastq SRR15523633_2_fastp.fastq
+0 0 0

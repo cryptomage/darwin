@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523609.sortindex
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523609.sortindex.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523609.sortindex.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate samtools
+time samtools index 3rd_mapping.sorted.bam

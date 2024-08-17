@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523609.correct
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523609.correct.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523609.correct.err
+#SBATCH --mem=32G
+
+##Commands
+
+source activate ratatosk
+time Ratatosk correct -v -G -c 16 -s SRR15523632.fastp.txt -l /home/projects/internship2024/darwin/long_read/process_scripts/filtlong/SRR15523609.filtered.fastq -o SRR15523609_correct

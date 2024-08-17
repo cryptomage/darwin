@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1:1971489-1972085|-  -            199 53193at72274         -            143   2.7e-52  175.3   1.5   1   1   3.7e-55   4.7e-52  174.5   1.5     1   141     1   152     1   154 0.92 1_1815 # 1971489 # 1972085 # -1 # ID=1_1815;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.618
+3:999349-999756|-    -            136 53193at72274         -            143   0.00028   19.7   1.7   1   1   2.6e-07   0.00034   19.4   1.7    23   122     8   111     3   129 0.82 3_955 # 999349 # 999756 # -1 # ID=3_955;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.728
+1:1970869-1971492|-  -            208 53193at72274         -            143     0.021   13.6   0.1   1   1   2.7e-05     0.035   12.9   0.1    21   105    33   107    27   133 0.54 1_1814 # 1970869 # 1971492 # -1 # ID=1_1814;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.617
+1:1641282-1642958|+  -            559 53193at72274         -            143     0.099   11.4  10.2   1   2    0.0025       3.3    6.5   2.9    38   133   155   250   150   257 0.82 1_1528 # 1641282 # 1642958 # 1 # ID=1_1528;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.670
+1:1641282-1642958|+  -            559 53193at72274         -            143     0.099   11.4  10.2   2   2   0.00059      0.76    8.5   0.8    45   103   273   331   265   343 0.88 1_1528 # 1641282 # 1642958 # 1 # ID=1_1528;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.670
+2:700308-702296|-    -            663 53193at72274         -            143      0.11   11.3   4.4   1   3    0.0022       2.8    6.7   0.0   104   140   125   161    92   164 0.84 2_583 # 700308 # 702296 # -1 # ID=2_583;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.661
+2:700308-702296|-    -            663 53193at72274         -            143      0.11   11.3   4.4   2   3      0.17   2.2e+02    0.5   0.2    36    93   207   263   198   287 0.71 2_583 # 700308 # 702296 # -1 # ID=2_583;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.661
+2:700308-702296|-    -            663 53193at72274         -            143      0.11   11.3   4.4   3   3     0.029        38    3.0   0.6    53    84   376   407   345   425 0.62 2_583 # 700308 # 702296 # -1 # ID=2_583;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.661
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/53193at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/run_pseudomonadales_odb10/hmmer_output/53193at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/53193at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly
+# Date:            Wed Aug 14 13:06:36 2024
+# [ok]

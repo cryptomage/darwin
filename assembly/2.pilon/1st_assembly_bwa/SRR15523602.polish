@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523602.polish
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523602.polish.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523602.polish.err
+#SBATCH --mem=32G
+
+##Commands
+
+source activate pilon
+time pilon -Xmx200g  --genome 1st_assembly.fasta --fix all --changes --bam 1st_mapping.sorted.bam --output SRR15523602.polished

@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2:4311005-4312306|-  -            434 17132at72274         -            361  4.5e-179  593.4   2.8   1   1  4.3e-181  4.1e-178  590.3   2.8     1   353     3   407     3   418 0.90 2_4003 # 4311005 # 4312306 # -1 # ID=2_4003;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.664
+2:6365492-6366973|+  -            494 17132at72274         -            361   1.2e-12   46.0   0.0   1   2   5.6e-09   5.3e-06   24.1   0.0   176   298     2   124     1   158 0.84 2_5891 # 6365492 # 6366973 # 1 # ID=2_5891;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.646
+2:6365492-6366973|+  -            494 17132at72274         -            361   1.2e-12   46.0   0.0   2   2   1.2e-07   0.00012   19.6   0.1   178   298   199   322   192   371 0.82 2_5891 # 6365492 # 6366973 # 1 # ID=2_5891;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.646
+2:5026668-5028035|-  -            456 17132at72274         -            361   1.5e-07   29.1   0.0   1   1   2.4e-10   2.3e-07   28.5   0.0   174   325   214   374   187   384 0.75 2_4636 # 5026668 # 5028035 # -1 # ID=2_4636;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.646
+2:3362775-3363692|-  -            306 17132at72274         -            361   6.7e-07   27.0   0.1   1   1   1.4e-09   1.3e-06   26.1   0.1   178   326    16   177    10   196 0.79 2_3133 # 3362775 # 3363692 # -1 # ID=2_3133;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.638
+2:4006303-4007403|+  -            367 17132at72274         -            361   2.6e-05   21.8   0.0   1   1   4.8e-08   4.5e-05   21.0   0.0   180   224     6    50     3   149 0.87 2_3729 # 4006303 # 4007403 # 1 # ID=2_3729;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.631
+2:3880921-3882141|-  -            407 17132at72274         -            361   6.6e-05   20.4   0.0   1   1   1.1e-07    0.0001   19.8   0.0   177   270   160   252   152   305 0.79 2_3618 # 3880921 # 3882141 # -1 # ID=2_3618;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.650
+2:3559116-3561416|-  -            767 17132at72274         -            361     0.092   10.1   0.2   1   1    0.0003      0.29    8.5   0.2   178   202     5    29     2   175 0.65 2_3302 # 3559116 # 3561416 # -1 # ID=2_3302;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.669
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/busco_downloads/lineages/pseudomonadales_odb10/hmms/17132at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/run_pseudomonadales_odb10/hmmer_output/17132at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/busco_downloads/lineages/pseudomonadales_odb10/hmms/17132at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1/merged_merge1.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/merged_assembly1
+# Date:            Tue Aug 13 13:55:10 2024
+# [ok]

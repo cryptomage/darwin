@@ -1,0 +1,1 @@
+/home/users/jdaligato/.conda/envs/tgs-gapcloser/bin/tgsgapcloserbin/tgsseqsplit --input_scaff ragtag.scaffold.fasta --prefix SRR15523602.finalassembly

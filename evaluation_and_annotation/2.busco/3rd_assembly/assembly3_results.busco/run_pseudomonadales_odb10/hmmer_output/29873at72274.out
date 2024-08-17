@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1:5496803-5497753|+  -            317 29873at72274         -            268    1e-155  515.2   0.7   1   2    3e-157  4.8e-154  509.7   0.1     1   259     1   274     1   280 0.96 1_5029 # 5496803 # 5497753 # 1 # ID=1_5029;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.631
+1:5496803-5497753|+  -            317 29873at72274         -            268    1e-155  515.2   0.7   2   2     0.008        13    3.3   0.1   230   268   277   314   274   314 0.76 1_5029 # 5496803 # 5497753 # 1 # ID=1_5029;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.631
+1:6337931-6339547|-  -            539 29873at72274         -            268   3.9e-12   44.4   0.6   1   2   7.6e-09   1.2e-05   23.1   0.2   116   203   117   204   108   212 0.91 1_5794 # 6337931 # 6339547 # -1 # ID=1_5794;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.688
+1:6337931-6339547|-  -            539 29873at72274         -            268   3.9e-12   44.4   0.6   2   2   9.6e-08   0.00016   19.5   0.0   111   196   341   424   310   432 0.85 1_5794 # 6337931 # 6339547 # -1 # ID=1_5794;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.688
+1:1375765-1379052|-  -           1096 29873at72274         -            268     1e-11   43.0   0.6   1   2   2.2e-06    0.0036   15.0   0.1   123   208   692   778   684   787 0.89 1_1238 # 1375765 # 1379052 # -1 # ID=1_1238;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.712
+1:1375765-1379052|-  -           1096 29873at72274         -            268     1e-11   43.0   0.6   2   2   1.4e-09   2.3e-06   25.5   0.1   124   195   917   988   908   994 0.93 1_1238 # 1375765 # 1379052 # -1 # ID=1_1238;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.712
+1:599459-601066|+    -            536 29873at72274         -            268   6.8e-10   37.0   1.1   1   2   1.7e-09   2.7e-06   25.2   0.1    39   205    35   207    16   217 0.80 1_494 # 599459 # 601066 # 1 # ID=1_494;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.688
+1:599459-601066|+    -            536 29873at72274         -            268   6.8e-10   37.0   1.1   2   2     6e-05     0.098   10.3   0.1   113   237   343   472   325   489 0.84 1_494 # 599459 # 601066 # 1 # ID=1_494;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.688
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/29873at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/run_pseudomonadales_odb10/hmmer_output/29873at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/29873at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly
+# Date:            Tue Aug 13 14:47:20 2024
+# [ok]

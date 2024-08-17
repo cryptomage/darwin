@@ -1,0 +1,2 @@
+query	grouping_confidence	location_confidence	orientation_confidence
+contig_3_pilon	1.0	0.9707046922479906	0.6838146182653783

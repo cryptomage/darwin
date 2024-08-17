@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523602.quast
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523602.quast.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523602.quast.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate quast
+time quast.py -t 10 SRR15523602.finalassembly.contig -o /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly

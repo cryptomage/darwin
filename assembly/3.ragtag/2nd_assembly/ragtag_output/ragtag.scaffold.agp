@@ -1,0 +1,7 @@
+## agp-version 2.1
+# AGP created by RagTag v2.1.0
+CP000438.1_RagTag	1	5232432	1	W	contig_3_pilon	1	5232432	-
+CP000438.1_RagTag	5232433	5232532	2	U	100	scaffold	yes	align_genus
+CP000438.1_RagTag	5232533	5965138	3	W	contig_9_pilon	1	732606	+
+CP000438.1_RagTag	5965139	5965238	4	U	100	scaffold	yes	align_genus
+CP000438.1_RagTag	5965239	7057265	5	W	contig_2_pilon	1	1092027	-

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=merged_assembly1.busco
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/merged_assembly1.busco.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/merged_assembly1.busco.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate busco
+time busco -m genome -i merged_merge1.fasta -o merged_merge1.busco -l pseudomonadales_odb10 
+

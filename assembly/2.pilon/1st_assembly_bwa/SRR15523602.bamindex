@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523602.bamindex
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523602.bamindex.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523602.bamindex.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate bwa
+time bwa index 1st_mapping.bam

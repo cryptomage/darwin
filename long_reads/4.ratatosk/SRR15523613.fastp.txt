@@ -1,0 +1,2 @@
+/home/projects/internship2024/darwin/short_read/output_files/SRR15523613_1_fastp.fastq
+/home/projects/internship2024/darwin/short_read/output_files/SRR15523613_2_fastp.fastq

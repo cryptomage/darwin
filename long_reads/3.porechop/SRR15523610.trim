@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523610.trim
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523610.trim.adapt.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523610.trim.adapt.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate porechop
+time porechop -i /home/projects/internship2024/darwin/fastq_pa/long_read/SRR15523610.fastq -o /home/projects/internship2024/darwin/long_read/process_scripts/porechop/SRR15523610.trim.adapt.fastq --format fastq -t 10

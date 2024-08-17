@@ -1,0 +1,17 @@
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...7057101 bp seq created, 65.83 pct GC
+Locating all potential starts and stops...395156 nodes
+Looking for GC bias in different frames...frame bias scores: 0.84 0.10 2.06
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (5232432 bp)...done!
+Finding genes in sequence #2 (732606 bp)...done!
+Finding genes in sequence #3 (1092027 bp)...done!

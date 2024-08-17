@@ -1,0 +1,19 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523632.fastp
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523632.fastp.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523632.fastp.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate fastp
+time fastp --in1 /home/projects/internship2024/darwin/fastq_pa/short_read/SRR15523632_1.fastq --trim_front1 20 --out1 /home/projects/internship2024/darwin/short_read/output_files/SRR15523632_1_fastp.fastq \
+--in2 /home/projects/internship2024/darwin/fastq_pa/short_read/SRR15523632_2.fastq --trim_front2 20 --out2 /home/projects/internship2024/darwin/short_read/output_files/SRR15523632_2_fastp.fastq
+mv fastp.* /home/projects/internship2024/darwin/short_read/output_files

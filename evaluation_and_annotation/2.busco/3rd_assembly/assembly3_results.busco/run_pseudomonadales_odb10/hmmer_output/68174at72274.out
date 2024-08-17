@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1:6542165-6542467|+  -            101 68174at72274         -             86     6e-47  156.6   0.6   1   1   5.3e-50   6.9e-47  156.4   0.6     1    86     1    92     1    92 0.95 1_6022 # 6542165 # 6542467 # 1 # ID=1_6022;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.578
+1:6040550-6040834|+  -             95 68174at72274         -             86   2.3e-15   55.4   0.1   1   1   2.1e-18   2.7e-15   55.2   0.1     4    86     1    90     1    90 0.87 1_5526 # 6040550 # 6040834 # 1 # ID=1_5526;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.618
+1:3972756-3973028|+  -             91 68174at72274         -             86   3.5e-15   54.8   0.1   1   1     3e-18   3.9e-15   54.7   0.1    12    86    12    89     2    89 0.89 1_3661 # 3972756 # 3973028 # 1 # ID=1_3661;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.630
+1:869287-869559|-    -             91 68174at72274         -             86   3.3e-13   48.5   0.0   1   1   2.7e-16   3.5e-13   48.4   0.0    16    86    16    89     1    89 0.79 1_731 # 869287 # 869559 # -1 # ID=1_731;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.590
+1:5104451-5104732|-  -             94 68174at72274         -             86     1e-11   43.7   0.0   1   1   8.7e-15   1.1e-11   43.6   0.0     3    83     2    88     1    91 0.86 1_4667 # 5104451 # 5104732 # -1 # ID=1_4667;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.642
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/68174at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/run_pseudomonadales_odb10/hmmer_output/68174at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/68174at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly
+# Date:            Tue Aug 13 14:48:54 2024
+# [ok]

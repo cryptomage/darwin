@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523609.filtered
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523609.filtered.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523609.filtered.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate filtlong
+time filtlong --min_length 1000 SRR15523609.trim.adapt.fastq > SRR15523609.filtered.fastq

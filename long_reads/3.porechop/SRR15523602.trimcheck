@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523602.trimcheck
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523602.trimcheck.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523602.trimcheck.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate nanoplot
+NanoPlot --fastq /home/projects/internship2024/darwin/preprocessing/trimmedadapt/SRR15523602.trim.adapt.fastq --N50 -o qc_report/SRR15523602.trimcheck

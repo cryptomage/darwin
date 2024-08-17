@@ -1,0 +1,3 @@
+/home/users/jdaligato/.conda/envs/tgs-gapcloser/bin/tgsgapcloserbin/tgsseqgen --prefix SRR15523602.finalassembly
+TGSSeqGen	INFO	PST	2024/8/11	15:32:29	:	TGSSeqGen start now ... 
+TGSSeqGen	INFO	PST	2024/8/11	15:32:29	:	TGSSeqGen finish. used wall clock : 0 seconds, cpu time : 0.249714 seconds

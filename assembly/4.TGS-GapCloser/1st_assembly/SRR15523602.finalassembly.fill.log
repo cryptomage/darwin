@@ -1,0 +1,48 @@
+/home/users/jdaligato/.conda/envs/tgs-gapcloser/bin/tgsgapcloserbin/tgsgapcloser --prefix SRR15523602.finalassembly --contig2ont_paf SRR15523602.finalassembly.fill.paf --ont_reads_a GCA_000014625.1_ASM1462v1_genomic.fna --min_match 300 --min_idy 0.300000
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	TGSGapCloser start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadONTReads start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadONTReads finish. used wall clock : 0 seconds, cpu time : 0.015601 seconds
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadPAF start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the read2contig freq is 
+2	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the contig2read_num_freq freq is 
+1	2
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the contig2a_read_freq freq is 
+1	1
+198	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadPAF finish. used wall clock : 0 seconds, cpu time : 0.001716 seconds
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadScaffInfo start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	LoadScaffInfo finish. used wall clock : 0 seconds, cpu time : 0.000048 seconds
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	ParseAllGap start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the overlap cheked caused failed is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the gapsize cheked caused failed is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the gap_total is 1
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the no_match is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the no choose is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the no common is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the scaff_negotive_gap_size is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the ont_negotive_gap_size is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the common reads count freq for a gap 
+1	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the used idy freq is 
+67	1
+96	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the correct oo reads count freq for a gap 
+1	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the filler choose count freq for a gap 
+3	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the one read provide filler choose count freq for a gap 
+3	1
+
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	>the cut error is 0
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	ParseAllGap finish. used wall clock : 0 seconds, cpu time : 0.000476 seconds
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	PrintScaffInfo start now ... 
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	PrintScaffInfo finish. used wall clock : 0 seconds, cpu time : 0.000117 seconds
+TGSGapCloser	INFO	PST	2024/8/11	15:32:29	:	TGSGapCloser finish. used wall clock : 0 seconds, cpu time : 0.048485 seconds

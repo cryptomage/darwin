@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    merged_merge1
+# contigs (>= 0 bp)         2            
+# contigs (>= 1000 bp)      2            
+# contigs (>= 5000 bp)      2            
+# contigs (>= 10000 bp)     2            
+# contigs (>= 25000 bp)     2            
+# contigs (>= 50000 bp)     2            
+Total length (>= 0 bp)      7068045      
+Total length (>= 1000 bp)   7068045      
+Total length (>= 5000 bp)   7068045      
+Total length (>= 10000 bp)  7068045      
+Total length (>= 25000 bp)  7068045      
+Total length (>= 50000 bp)  7068045      
+# contigs                   2            
+Largest contig              6710370      
+Total length                7068045      
+GC (%)                      65.61        
+N50                         6710370      
+N90                         6710370      
+auN                         6388894.9    
+L50                         1            
+L90                         1            
+# N's per 100 kbp           0.00         

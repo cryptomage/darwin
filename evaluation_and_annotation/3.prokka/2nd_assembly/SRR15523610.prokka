@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523610.prokka
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523610.prokka.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523610.prokka.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate prokka_v1.14.6
+time prokka --prefix prokka --cpus 10 SRR15523610.finalassembly.contig

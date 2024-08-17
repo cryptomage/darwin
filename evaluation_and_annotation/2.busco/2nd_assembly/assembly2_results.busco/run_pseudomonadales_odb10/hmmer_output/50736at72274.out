@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1:4971683-4972288|+  -            202 50736at72274         -            162   7.9e-69  228.9   0.1   1   1   2.9e-72   9.4e-69  228.7   0.1     1   162    21   201    21   201 0.91 1_4574 # 4971683 # 4972288 # 1 # ID=1_4574;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.668
+1:4671217-4672545|-  -            443 50736at72274         -            162   1.8e-05   22.9   0.2   1   2   1.5e-08   4.9e-05   21.5   0.2     2    68   213   295   212   344 0.76 1_4300 # 4671217 # 4672545 # -1 # ID=1_4300;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.690
+1:4671217-4672545|-  -            443 50736at72274         -            162   1.8e-05   22.9   0.2   2   2      0.35   1.1e+03   -2.4   0.0   135   155   346   366   317   371 0.73 1_4300 # 4671217 # 4672545 # -1 # ID=1_4300;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.690
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/50736at72274.hmm
+# Target file:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/run_pseudomonadales_odb10/hmmer_output/50736at72274.out --cpu 1 /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/busco_downloads/lineages/pseudomonadales_odb10/hmms/50736at72274.hmm /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly/assembly2_results.busco/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/projects/internship2024/darwin/long_read/process_scripts/busco/2nd_assembly
+# Date:            Wed Aug 14 13:06:34 2024
+# [ok]

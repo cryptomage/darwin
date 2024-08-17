@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##Parameters
+
+#SBATCH --account=internship2024
+#SBATCH --job-name=SRR15523610.map
+#SBATCH --qos=shortjobs
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --output=/home/projects/internship2024/darwin/results/SRR15523610.map.out
+#SBATCH --error=/home/projects/internship2024/darwin/results/SRR15523610.map.err
+#SBATCH --mem=20G
+
+##Commands
+
+source activate bwa  
+time bwa mem -t 10 2nd_assembly.fasta SRR15523633_1_fastp.fastq SRR15523633_2_fastp.fastq > 2nd_mapping.sam

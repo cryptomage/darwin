@@ -1,0 +1,61 @@
+/home/users/jdaligato/.conda/envs/quast/bin/quast.py -t 10 SRR15523602.finalassembly.contig -o /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.16-0-lts-x86_64-with-glibc2.29 (linux_64)
+  Python version: 3.10.8
+  CPUs number: 64
+
+Started: 2024-08-11 15:55:55
+
+Logging to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/quast.log
+
+CWD: /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly
+Main parameters: 
+  MODE: default, threads: 10, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  SRR15523602.finalassembly.contig ==> SRR15523602.finalassembly
+
+2024-08-11 15:55:57
+Running Basic statistics processor...
+  Contig files: 
+    SRR15523602.finalassembly
+  Calculating N50 and L50...
+    SRR15523602.finalassembly, N50 = 6710370, L50 = 1, auN = 6388894.9, Total length = 7068045, GC % = 65.61, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/basic_stats/GC_content_plot.pdf
+  Drawing SRR15523602.finalassembly GC content plot...
+    saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/basic_stats/SRR15523602.finalassembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-08-11 15:55:58
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-08-11 15:55:59
+RESULTS:
+  Text versions of total report are saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/report.html
+  PDF version (tables and plots) is saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/report.pdf
+  Icarus (contig browser) is saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/icarus.html
+  Log is saved to /home/projects/internship2024/darwin/long_read/process_scripts/quast/1st_assembly/quast.log
+
+Finished: 2024-08-11 15:55:59
+Elapsed time: 0:00:03.404226
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,27 @@
+2024-08-13 14:35:32 DEBUG:busco.run_BUSCO	Command line: /home/users/jdaligato/.conda/envs/busco/bin/busco -m genome -i SRR15523609.finalassembly.contig -o assembly3.busco -l pseudomonadales_odb10
+2024-08-13 14:35:32 INFO:busco.run_BUSCO	***** Start a BUSCO v5.7.1 analysis, current time: 08/13/2024 14:35:32 *****
+2024-08-13 14:35:32 DEBUG:busco.ConfigManager	Getting config file
+2024-08-13 14:35:32 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2024-08-13 14:35:32 INFO:busco.BuscoConfig	Running genome mode
+2024-08-13 14:35:32 ERROR:busco.BuscoRunner	A run with the name /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3.busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2024-08-13 14:35:32 DEBUG:busco.BuscoRunner	A run with the name /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3.busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+Traceback (most recent call last):
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/run_BUSCO.py", line 68, in run
+    self.load_config()
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/run_BUSCO.py", line 60, in load_config
+    self.config_manager.load_busco_config_main()
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/ConfigManager.py", line 63, in load_busco_config_main
+    self.config_main.validate()
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/BuscoConfig.py", line 634, in validate
+    self._check_no_previous_run()
+  File "/home/users/jdaligato/.conda/envs/busco/lib/python3.9/site-packages/busco/BuscoConfig.py", line 846, in _check_no_previous_run
+    raise BatchFatalError(
+busco.Exceptions.BatchFatalError: A run with the name /home/projects/internship2024/darwin/long_read/process_scripts/busco/3rd_assembly/assembly3.busco already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2024-08-13 14:35:32 ERROR:busco.BuscoRunner	BUSCO analysis failed!
+2024-08-13 14:35:32 ERROR:busco.BuscoRunner	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
